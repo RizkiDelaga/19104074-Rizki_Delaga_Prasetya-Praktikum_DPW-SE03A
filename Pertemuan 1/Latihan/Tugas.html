@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <h1>Form HTML</h1>
+    <form method="POST" action="response2.jsp" enctype="multipart/form-data">
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        Gender :
+        <input type="radio" name="Gender" value="Man"> Man
+        <input type="radio" name="Gender" value="Woman"> Woman
+        <br><br>
+
+        <label for="name">Address :</label>
+        <input type="text" id="name" name="address">
+        <br><br>
+
+        Country :
+        <select name="orientasi-kemampuan">
+            <option value="ind">Indonesia</option>
+            <option value="sh">Singapore</option>
+            <option value="my">Malaysia</option>
+        </select>
+        <br><br>
+
+        <label for="name">Email :</label>
+        <input type="text" id="name" name="email">
+        <br><br>
+
+        <label for="name">Photo :</label>
+        <input type="text" id="name" name="photo">
+        <input type="file" name="upload" width="200" />
+        <br><br>
+
+        Comment :
+        <Textarea name="deskripsi" cols="65" rows="7" align="center"></Textarea>
+        <input type="button" value="Submit" name="Cancel">
+        <br><br>
+
+    </form>
+    <br>
+
+</body>
+
+</html>

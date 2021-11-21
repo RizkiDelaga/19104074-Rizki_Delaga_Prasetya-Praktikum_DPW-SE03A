@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganti text</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Membuat Text Username -->
+    <p id="teks">Username</p>
+    <!-- Tombol untuk mengubah teks username -->
+    <button id="btn">Ubah Username</button>
+
+    <script>
+        // Fungsi Untuk mengubah text sebelumnya menjadi text yg diinginkan
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("#teks").text("Rizki Delaga Prasetya");
+            });
+        });
+    </script>
+</body>
+
+</html>

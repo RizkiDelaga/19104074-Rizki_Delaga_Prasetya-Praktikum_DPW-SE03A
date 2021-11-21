@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hapus Div</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="div1" style="height:200px;width:200px;border:2px solid black;background-color: lightcoral; text-align: center;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, tempora eum at aliquam cum inventore, repudiandae necessitatibus nostrum ad ipsa corporis saepe consequuntur ullam ipsam accusantium? Aut, quidem! Impedit, sunt.
+    </div>
+    <br>
+
+    <!-- Tombol untuk menghapus element div -->
+    <button>Remove div element</button>
+
+    <script>
+        // Fungsi untuk menghapus element div
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#div1").remove();
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+Nama Repo : 19104074-Rizki_Delaga_Prasetya-Praktikum_DPW
+
+Mohon maaf kak, untuk Pertemuan7 ini saya upload di Google Drive dulu, soalnya pas saya coba upload di github dekstop sama VS Code filenya gak mau kebaca. jd pas di commit keterangannya empty file.
+
+Link GDrive: https://drive.google.com/drive/folders/1BtRhDhPZmv0dnmFOi6NfeY-Mm0CO-PKi?usp=sharing

@@ -34,9 +34,9 @@ Route::get('/beranda', [myController::class, 'index']);
 // Kita langsung ke viewnya
 //Route::view('/beranda', 'beranda');
 
-Route::get('/student', [StudentController::class, 'index']);
-Route::get('/student/create', [StudentController::class, 'create']);
-Route::post('/student/create', [StudentController::class, 'store']);
-Route::get('/student/{id}/studentEdit', [StudentController::class, 'edit']);
-Route::put('/student/{id}/studentEdit', [StudentController::class, 'update']);
-Route::delete('/student/hapus/{id}', [StudentController::class, 'destroy']);
+Route::get('/mahasiswa', [StudentController::class, 'index']);
+Route::get('/mahasiswa/create', [StudentController::class, 'create']);
+Route::post('/mahasiswa/create', [StudentController::class, 'store']);
+Route::get('/mahasiswa/{id}/edit', [StudentController::class, 'edit']);
+Route::put('/mahasiswa/{id}/edit', [StudentController::class, 'update']);
+Route::delete('/mahasiswa/hapus/{id}', [StudentController::class, 'destroy']);

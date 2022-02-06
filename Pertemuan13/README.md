@@ -3,4 +3,4 @@ Repo Praktikum Desain_dan_Pemrograman _Web. Rizki Delaga Prasetya (19104074) SE0
 
 ## Pertemuan 13 - Upload ke Hosting
 
-### Online Site : http://rizkidelaga.inyonghost.com/
+### Online Site : https://praktikum-dpw.rizkidelagaprasetya.online/
